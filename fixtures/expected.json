@@ -1,0 +1,88 @@
+{
+  "total_requests": 12,
+  "server_errors": 3,
+  "server_error_percent": 25.0,
+  "top_routes": [
+    {
+      "method": "GET",
+      "path": "/api/products",
+      "requests": 7
+    },
+    {
+      "method": "POST",
+      "path": "/api/orders",
+      "requests": 3
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "requests": 1
+    },
+    {
+      "method": "GET",
+      "path": "/api/products/42",
+      "requests": 1
+    }
+  ],
+  "slow_routes": [
+    {
+      "method": "POST",
+      "path": "/api/orders",
+      "requests": 3,
+      "avg_request_time": 10.112333333333334
+    },
+    {
+      "method": "GET",
+      "path": "/api/products",
+      "requests": 7,
+      "avg_request_time": 0.3628571428571429
+    },
+    {
+      "method": "GET",
+      "path": "/api/products/42",
+      "requests": 1,
+      "avg_request_time": 0.018
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "requests": 1,
+      "avg_request_time": 0.003
+    }
+  ],
+  "top_ips": [
+    {
+      "ip": "192.0.2.50",
+      "requests": 4
+    },
+    {
+      "ip": "192.0.2.10",
+      "requests": 3
+    },
+    {
+      "ip": "192.0.2.12",
+      "requests": 3
+    },
+    {
+      "ip": "192.0.2.11",
+      "requests": 2
+    }
+  ],
+  "by_minute": [
+    {
+      "time": "2026-09-05T12:00:00Z",
+      "requests": 4,
+      "server_errors": 0
+    },
+    {
+      "time": "2026-09-05T12:01:00Z",
+      "requests": 6,
+      "server_errors": 3
+    },
+    {
+      "time": "2026-09-05T12:02:00Z",
+      "requests": 2,
+      "server_errors": 0
+    }
+  ]
+}

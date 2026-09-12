@@ -1,0 +1,7 @@
+.git
+.env
+.env.*
+generated
+output
+*.prof
+data

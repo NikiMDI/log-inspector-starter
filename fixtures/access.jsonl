@@ -1,0 +1,12 @@
+{"time":"2026-09-05T12:00:01Z","ip":"192.0.2.10","method":"GET","path":"/api/products","status":200,"request_time":0.042}
+{"time":"2026-09-05T12:00:03Z","ip":"192.0.2.11","method":"GET","path":"/api/products/42","status":200,"request_time":0.018}
+{"time":"2026-09-05T12:00:05Z","ip":"192.0.2.12","method":"POST","path":"/api/orders","status":201,"request_time":0.156}
+{"time":"2026-09-05T12:00:12Z","ip":"192.0.2.10","method":"GET","path":"/api/products","status":200,"request_time":0.051}
+{"time":"2026-09-05T12:01:01Z","ip":"192.0.2.50","method":"GET","path":"/api/products","status":200,"request_time":0.380}
+{"time":"2026-09-05T12:01:02Z","ip":"192.0.2.50","method":"GET","path":"/api/products","status":200,"request_time":0.740}
+{"time":"2026-09-05T12:01:03Z","ip":"192.0.2.50","method":"GET","path":"/api/products","status":500,"request_time":1.250}
+{"time":"2026-09-05T12:01:04Z","ip":"192.0.2.50","method":"GET","path":"/api/products","status":502,"request_time":0.012}
+{"time":"2026-09-05T12:01:08Z","ip":"192.0.2.11","method":"POST","path":"/api/orders","status":504,"request_time":30.001}
+{"time":"2026-09-05T12:01:15Z","ip":"192.0.2.12","method":"GET","path":"/api/health","status":200,"request_time":0.003}
+{"time":"2026-09-05T12:02:01Z","ip":"192.0.2.10","method":"GET","path":"/api/products","status":200,"request_time":0.065}
+{"time":"2026-09-05T12:02:04Z","ip":"192.0.2.12","method":"POST","path":"/api/orders","status":201,"request_time":0.180}

@@ -1,0 +1,2 @@
+{"time":"2026-09-05T12:00:01Z","ip":"192.0.2.10","method":"GET","path":"/api/products","status":200,"request_time":0.042}
+{"time":"2026-09-05T12:00:02Z","ip":"192.0.2.10","method":"GET","path":"/api/products","status":200,"request_time":-1}
